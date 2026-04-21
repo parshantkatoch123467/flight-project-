@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.main {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  text-align: center;
+  color: white;
+}
+
+.title {
+  padding-top: 20px;
+}
+
+.search-card {
+  width: 300px;
+  margin: 40px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+}
+
+.search-card input {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.search-card button {
+  width: 95%;
+  padding: 10px;
+  background: #1e3c72;
+  color: white;
+  border: none;
+}
+
+.result-card {
+  background: white;
+  color: black;
+  width: 300px;
+  margin: auto;
+  padding: 15px;
+  border-radius: 10px;
+}
